@@ -99,7 +99,11 @@ print("Image uploaded successfully to Google Cloud Storage!")
 
 ![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/GCP_Bucket4.png)
 
+## 3.Explore Storage Features
 
+### Blob access tiers
+
+![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/GCP_Bucket4.png)
 
 
 
