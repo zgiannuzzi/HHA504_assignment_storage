@@ -15,7 +15,7 @@
 
 ### GCP
 
-1. create a new Cloud Storage bucket
+1. Create a new Cloud Storage bucket
 
 ![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/GCP_Bucket1.png)
 
@@ -27,7 +27,7 @@
 
 ### Azure
 
-1. Used professors google colab and foollwed along to succesfully add a file to azure with python
+1. Used professors google colab and followed along to succesfully add a file to azure with python
    - created a new .env file
    - used key to access container
    - ran code to upload file
@@ -40,7 +40,7 @@
 
 ### GCP
 
-1. Used proffessors program the upload files to gcp and changed neccessary paths
+1. Used professors program and uploaded files to gcp and changed neccessary paths
    - I did use githgub code space and realized I had to install google client library using the following "pip install --upgrade google-cloud-storage"
 ```python
 from google.cloud import storage
@@ -102,7 +102,7 @@ print("Image uploaded successfully to Google Cloud Storage!")
 ## 3.Explore Storage Features
 
 ### Azure
-### Blob access tiers
+### 1. Blob access tiers
 1. As a default you can either set a hot or cool access tier
    - Hot - if you are frequently accessing data
    - cool - More used for backup scenarios
@@ -112,18 +112,18 @@ print("Image uploaded successfully to Google Cloud Storage!")
 
 ![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/Azure_bucket7.png)
 
-### Access policies
+### 2. Access policies
 1. You can add predetermined role assignments or create your own to control what blobs users have access to. 
 
 ![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/Azure_bucket8.png)
 
 ### GCP
-### IAM permissions
+### 1. IAM permissions
 1. You have the abilty to create new roles and assign them to either specific users or groups fo users
 
 ![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/GCP_Bucket5.png)
 
-### Life cycle rules
+### 2. Life cycle rules
 
 1. With this you can create rules to manage your blobs
    - For example you want to move from Hot to cold
