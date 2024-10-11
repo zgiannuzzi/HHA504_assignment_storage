@@ -102,10 +102,14 @@ print("Image uploaded successfully to Google Cloud Storage!")
 ## 3.Explore Storage Features
 
 ### Blob access tiers
+1. As a default you can either set a hot or cool access tier
+   - Hot - if you are frequently accessing data
+   - cool - More used for backup scenarios
+![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/Azure_bucket6.png)
 
-![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/GCP_Bucket4.png)
+2. When uploading blobs you have the option to change access tier or leave default
 
-
+![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/Azure_bucket7.png)
 
 
 
