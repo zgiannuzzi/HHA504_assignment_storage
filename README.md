@@ -101,6 +101,7 @@ print("Image uploaded successfully to Google Cloud Storage!")
 
 ## 3.Explore Storage Features
 
+### Azure
 ### Blob access tiers
 1. As a default you can either set a hot or cool access tier
    - Hot - if you are frequently accessing data
@@ -110,6 +111,26 @@ print("Image uploaded successfully to Google Cloud Storage!")
 2. When uploading blobs you have the option to change access tier or leave default
 
 ![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/Azure_bucket7.png)
+
+### Access policies
+1. You can add predetermined role assignments or create your own to control what blobs users have access to. 
+
+![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/Azure_bucket8.png)
+
+### GCP
+### IAM permissions
+1. You have the abilty to create new roles and assign them to either specific users or groups fo users
+
+![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/GCP_Bucket5.png)
+
+### Life cycle rules
+
+1. With this you can create rules to manage your blobs
+   - For example you want to move from Hot to cold
+   - Can control many options as seen below
+
+![Image of Azure overview](https://github.com/zgiannuzzi/HHA504_assignment_storage/blob/main/images/GCP_Bucket6.png)
+
 
 
 
